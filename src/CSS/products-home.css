@@ -1,0 +1,98 @@
+:root{
+    --color-text-hangur: #2271b3;
+    --border-color-hangur: #5c92b5;
+    --background-p-one: #ffffff;
+    --background-p-two: #f1f1f1;
+}
+.products-home{
+    height: 100vh;
+    width: 100%;
+    margin-top: -116px;
+    position: relative;
+}
+.products-home img{
+    width: 100%;
+    height: 100%;
+}
+.products-home .container{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 250px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products-home .container .p-one{
+    padding: 20px;
+    background-color: var(--background-p-two);
+    text-align: start;
+    writing-mode: vertical-rl;
+    height: 200px;
+    font-size: 17px;
+    color: var(--color-text-hangur);
+    background-color: var(--background-p-two);
+    border-right: 1px solid var(--border-color-hangur);
+    width: 70px;
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+.products-home .container .p-hangers{
+    background-color: var(--background-p-one);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--color-text-hangur);
+    border-right: 1px solid var(--border-color-hangur);
+}
+@media (max-width: 768px){
+    .products-home .container .p-hangers{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 550px){
+    .products-home{
+        margin-bottom: 200px;
+    }
+    .products-home .container{
+        position: absolute;
+        left: 0;
+    }
+    .products-home .container .p-one{
+        height: 220px;
+        width: 50px;
+    }
+    .products-home .container .p-hangers{
+        justify-content: flex-start;
+        padding-top: 20px;
+        height: 220px;
+        width: 50px;
+        writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+@media (max-width: 520px){
+    .products-home{
+        height: 680px;
+    }
+}
