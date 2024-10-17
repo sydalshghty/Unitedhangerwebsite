@@ -7,7 +7,7 @@
 .hanger-United{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     margin-bottom: -14px;
 }
 .hanger-United img{
@@ -85,5 +85,15 @@
     }
     .hanger-United .container .hanger-Content .p-one{
         display: none;
+    }
+}
+@media (max-width: 992px){
+    .hanger-United{
+        min-height: 80vh;
+    }
+}
+@media (max-width: 768px){
+    .hanger-United .container{
+        height: 650px;
     }
 }

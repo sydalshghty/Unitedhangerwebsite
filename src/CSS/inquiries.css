@@ -300,11 +300,19 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px 5px;
+    transition: background-color 0.5s ease;
     border-radius: 40px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+}
+.inquiries-departemant .inquiries-Details .send-inquiry:hover{
+    background-color: var(--background-color);
 }
 .inquiries-departemant .inquiries-Details .send-inquiry p{
     text-transform: uppercase;

@@ -21,9 +21,11 @@ function AllProducts(){
                     <p>3 SIZES</p>
                     <div className="icon-product">
                         <h5>MORE DETAILES</h5>
-                        <FontAwesomeIcon
-                        onClick={goToProduct}
-                        className="icon-right"icon={faArrowRight}/>
+                        <div>
+                            <FontAwesomeIcon
+                            onClick={goToProduct}
+                            className="icon-right"icon={faArrowRight}/>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -34,9 +36,11 @@ function AllProducts(){
                     <p>3 SIZES</p>
                     <div className="icon-product">
                         <h5>MORE DETAILES</h5>
-                        <FontAwesomeIcon 
-                        onClick={goToProduct}
-                        className="icon-right" icon={faArrowRight}/>
+                        <div>
+                            <FontAwesomeIcon 
+                            onClick={goToProduct}
+                            className="icon-right" icon={faArrowRight}/>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -47,9 +51,11 @@ function AllProducts(){
                     <p>3 SIZES</p>
                     <div className="icon-product">
                         <h5>MORE DETAILES</h5>
-                        <FontAwesomeIcon
-                        onClick={goToProduct}
-                        className="icon-right" icon={faArrowRight}/>
+                        <div>
+                            <FontAwesomeIcon
+                            onClick={goToProduct}
+                            className="icon-right" icon={faArrowRight}/>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -60,9 +66,11 @@ function AllProducts(){
                     <p>3 SIZES</p>
                     <div className="icon-product">
                         <h5>MORE DETAILES</h5>
-                        <FontAwesomeIcon
-                        onClick={goToProduct}
-                        className="icon-right" icon={faArrowRight}/>
+                        <div>
+                            <FontAwesomeIcon
+                            onClick={goToProduct}
+                            className="icon-right" icon={faArrowRight}/>
+                        </div>
                     </div>
                 </div>
                 </div>

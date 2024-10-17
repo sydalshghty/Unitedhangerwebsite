@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from "react-router-dom";
 
+
 function Inquiryform(){
+
     const myNavigate = useNavigate();
 
     const navigate = () => {
@@ -18,9 +20,8 @@ function Inquiryform(){
                 <div className="all-Inputs">
                     <div className="input-Name">
                         <label>full name</label>
-                        <input 
-                        
-                         type="text" name="Full-Name" required/>
+                        <input
+                        type="text" name="Full-Name" required/>
                     </div>
                     <div className="input-Email">
                         <label>email</label>
@@ -31,7 +32,11 @@ function Inquiryform(){
                         <input type="number" name="Phone" required/>
                     </div>
                     <div className="input-Submit">
-                        <input type="submit" value={"submit"}/>
+                        <input
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                        }} 
+                        type="submit" value={"submit"}/>
                     </div>
                     <div className="text-Content">
                         <p>after submit your inquiry, we will contact you to confirm your order thank you for your business</p>

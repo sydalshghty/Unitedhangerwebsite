@@ -28,10 +28,18 @@
     background-color: var(--background-Form);
     padding: 20px;
     border-radius: 20px;
+    transition: border 0.5s ease;
+    -webkit-transition: border 0.5s ease;
+    -moz-transition: border 0.5s ease;
+    -ms-transition: border 0.5s ease;
+    -o-transition: border 0.5s ease;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+.inquiry-Form form:hover{
+    border: 2px solid var(--background-Submit);
 }
 .inquiry-Form form .icon-Mark{
     position: absolute;
@@ -135,5 +143,12 @@
     .inquiry-Form form .all-Inputs .input-Submit input{
         margin-left: 90px;
         width: 190px;
+    }
+}
+@media (max-width: 768px){
+    .inquiry-Form{
+        height: 100vh;
+        z-index: 1000;
+        margin-top: -116px;
     }
 }

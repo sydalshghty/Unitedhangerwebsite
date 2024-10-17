@@ -23,6 +23,9 @@
 .form-Departemant .address-content .address-content-one{
     margin-bottom: 30px;
 }
+.form-Departemant .address-content .address-content-one p:nth-child(4){
+    cursor: pointer;
+}
 .form-Departemant .address-content .address-content-one p,
 .form-Departemant .address-content .address-content-two p{
     font-size: 13px;
@@ -121,11 +124,19 @@
     border: none;
     margin-top: 15px;
     cursor: pointer;
+    transition: background-color 0.5s ease;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+}
+.form-Departemant .form-content form .submit-button:hover{
+    background-color: var(--background-form);
 }
 @media (max-width: 1300px){
     .form-Departemant .form-content{

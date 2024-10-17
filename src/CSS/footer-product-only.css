@@ -36,3 +36,11 @@
         font-size: 13px;
     }
 }
+@media (max-width: 600px){
+    .footer-product-only{
+        height: 600px;
+    }
+    .footer-product-only .footer-content{
+        height: 210px;
+    }
+}

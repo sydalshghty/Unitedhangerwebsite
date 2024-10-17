@@ -99,7 +99,7 @@
     }
     .header .container .icons{
         margin-left: 0;
-        top: 52%;
+        top: 55%;
     }
 }
 @media (max-width: 550px){
@@ -115,7 +115,7 @@
     }
     .header .container .icons{
         margin-left: 0;
-        top: 47%;
+        top: 52%;
     }
 }
 @media (max-width: 400px){
@@ -127,7 +127,7 @@
     }
     .header .container .icons{
         margin-left: 0;
-        top: 46%;
+        top: 55%;
     }
 }
 .header .container .icons .icon-left,
@@ -257,10 +257,28 @@
 }
 @media (max-width: 400px){
     .header .about-mobile{
-        height: 27%;
+        height: 22%;
     }
     .header .about-mobile .container .p-two{
         display: none;
         margin-bottom: 0;
+    }
+}
+@media (max-width: 520px){
+    .header .about-mobile{
+        height: 22%;
+    }
+}
+@media (max-width: 768px){
+    .header .container{
+        height: 700px;
+    }
+}
+@media (max-width: 550px){
+    .header .container{
+        height: 650px;
+    }
+    .header .about-mobile .container .p-two{
+        display: none;
     }
 }
